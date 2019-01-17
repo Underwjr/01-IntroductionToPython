@@ -57,7 +57,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 3.
+# Done 3.
 #   Add another   print   statement below this comment.
 #   It should print any string that you want (but keep it polite and G-rated!)
 #
@@ -68,7 +68,7 @@ print('Hello, World')
 #   Look at the  Run  window to be sure that your string printed as expected.
 #
 ###############################################################################
-
+print('Hi BabyKins')
 ###############################################################################
 #
 # TODO: 4.
@@ -77,7 +77,7 @@ print('Hello, World')
 #   Let the computer do the arithmetic for you (no calculators!).
 #   You do NOT have to use strings for this, so no quotation marks!
 #
-#   TEST your code by re-running this module, then asking someone
+#   TEST your codek by re-running this module, then asking someone
 #   whom you trust:
 #      What number did your   print   display for this TO-DO?
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.

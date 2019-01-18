@@ -164,7 +164,7 @@ boris.forward(120)
 #
 ###############################################################################
 quinn = rg.SimpleTurtle()
-quinn.pen = rg.Pen('blue',10)
+quinn.pen = rg.Pen('blue', 10)
 quinn.speed = 1
 quinn.backward(80)
 quinn.right(90)
@@ -175,7 +175,7 @@ quinn.right(90)
 quinn.forward(80)
 quinn.right(90)
 quinn.forward(80)
-quinn.pen = rg.Pen('green',15)
+quinn.pen = rg.Pen('green', 15)
 quinn.right(120)
 quinn.forward(120)
 quinn.right(120)

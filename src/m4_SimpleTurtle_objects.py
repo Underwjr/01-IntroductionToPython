@@ -48,7 +48,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# Done 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving,
 #      ** click anywhere in the window to close the window **.
@@ -116,7 +116,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 4.
+# Done.
 #   Add a few more lines of your own code to make one of the existing
 #   SimpleTurtles move some more and/or have different characteristics.
 #
@@ -126,10 +126,20 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+boris.pen = rg.Pen('blue', 10)
+boris.speed = 1
+boris.forward(30)
+boris.left(20)
+boris.forward(120)
+boris.right(120)
+boris.forward(120)
+boris.right(120)
+boris.pen = rg.Pen('green', 5)
+boris.forward(120)
 
 ###############################################################################
 #
-# TODO: 5.
+# Done 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -153,6 +163,25 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+quinn = rg.SimpleTurtle()
+quinn.pen = rg.Pen('blue',10)
+quinn.speed = 1
+quinn.backward(80)
+quinn.right(90)
+quinn.forward(80)
+quinn.right(90)
+quinn.forward(80)
+quinn.right(90)
+quinn.forward(80)
+quinn.right(90)
+quinn.forward(80)
+quinn.pen = rg.Pen('green',15)
+quinn.right(120)
+quinn.forward(120)
+quinn.right(120)
+quinn.forward(120)
+quinn.right(120)
+quinn.forward(120)
 
 ###############################################################################
 #

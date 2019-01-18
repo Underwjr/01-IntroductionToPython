@@ -28,3 +28,21 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 #
 ########################################################################
+import rosegraphics as rg
+window = rg.TurtleWindow()
+
+danny = rg.SimpleTurtle()
+danny.pen = rg.Pen('red', 3)
+danny.speed = 5
+
+size = 100
+for k in range(7):
+    danny.draw_square(size)
+    danny.pen_up()
+    danny.right(15)
+    danny.forward(20)
+    danny.left(15)
+    danny.pen_down()
+    size = size +1
+
+window.tracer(10)

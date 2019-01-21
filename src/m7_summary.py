@@ -56,7 +56,8 @@ Jerry.pen_up()
 Jerry.go_to(rg.Point(100, -40))
 
 Jerry.pen_down()
-Jerry.pen = ('green', 10)
-Jerry.right(90)
+Jerry.pen = rg.Pen('green', 10)
+Jerry.right(180)
 Jerry.forward(150)
 
+window.close_on_mouse_click()

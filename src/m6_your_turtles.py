@@ -33,16 +33,50 @@ window = rg.TurtleWindow()
 
 danny = rg.SimpleTurtle()
 danny.pen = rg.Pen('red', 3)
-danny.speed = 5
+danny.speed = 16
 
 size = 100
-for k in range(7):
+for k in range(5):
     danny.draw_square(size)
     danny.pen_up()
     danny.right(15)
     danny.forward(20)
     danny.left(15)
     danny.pen_down()
-    size = size +1
+    size = size + 1
+
+danny.pen = rg.Pen('blue', 3)
+
+for k in range(6):
+    danny.draw_square(size)
+    danny.pen_up()
+    danny.left(15)
+    danny.backward(20)
+    danny.right(15)
+    danny.pen_down()
+    size = size + 1
+
+danny.pen = rg.Pen('green', 3)
+
+for k in range(6):
+    danny.draw_square(size)
+    danny.pen_up()
+    danny.right(15)
+    danny.backward(20)
+    danny.left(15)
+    danny.pen_down()
+    size = size + 1
+
+danny.pen = rg.Pen('indigo', 3)
+
+for k in range(12):
+    danny.draw_square(size)
+    danny.pen_up()
+    danny.left(15)
+    danny.forward(20)
+    danny.left(15)
+    danny.pen_down()
+    size = size + 1
+
 
 window.tracer(10)
